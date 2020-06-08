@@ -1,0 +1,19 @@
+{
+  "name": "wangsongc-test",
+  "version": "1.0.0",
+  "description": "just for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangsongc/npm-publish-demo.git"
+  },
+  "author": "wangsongc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangsongc/npm-publish-demo/issues"
+  },
+  "homepage": "https://github.com/wangsongc/npm-publish-demo#readme"
+}
