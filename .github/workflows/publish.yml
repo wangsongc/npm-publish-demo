@@ -36,3 +36,5 @@ jobs:
         run: npm publish --access public
         env: 
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+      - name: Release
+        uses: softprops/action-gh-release@v1
