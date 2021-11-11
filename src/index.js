@@ -56,3 +56,4 @@ angular
             FileUploader.Pipeline = Pipeline;
         }
     ]);
+//comment
