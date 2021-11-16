@@ -28,6 +28,9 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
-      - name: Release
-        uses: softprops/action-gh-release@v1
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
   
